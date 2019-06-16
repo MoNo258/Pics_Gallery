@@ -1,0 +1,44 @@
+.jumbotron {
+	background-image: url("https://images.unsplash.com/photo-1508166628-2a18fd4e27b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+	background-position: center; 
+  	background-size: contain;
+  	background-repeat: repeat;
+	height: auto;
+	color: #f2f2f2;
+
+}
+
+body	{
+	padding-top: 70px;
+	background-color: #f2f2f2;
+}
+
+nav {
+	padding-right: 10px;
+}
+
+.navbar-default {
+    background-color: #232344;
+}
+
+/*image next to the Brand's name - size & position (being next to and not above or below)*/
+.navbar-brand>img {
+	height: 20px;
+	width: 20px;
+	float: left;
+   	margin-right: 3px;
+}
+
+.flex	{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+      color: white;
+} 
+
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+      color:white;
+}
+
